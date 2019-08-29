@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Start My library */
+.py-half {padding: 0.5rem;}
+.py1 {padding: 1rem;}
+.py2 {padding: 1.5rem;}
+.py3 {padding: 2rem;}
+.py4 {padding: 2.5rem;}
+.py5 {padding: 3rem;}
+
+/* End my library */
+
+
+
+/* Start of top bar styles */
+
+.top-bar{
+    width: 100%;
+    /* background: purple; */
+    text-align: center;
+    margin: auto;
+}
+
+.top-bar .top-bar-container {
+    max-width: 1000px;
+    /* background: pink; */
+    width: 80%;
+    margin: auto;
+}
+
+.top-bar .top-bar-container .top-bar-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.top-bar .top-bar-container .top-bar-info .logo-here {
+    align-content: center;
+}
+
+.top-bar .top-bar-container .top-bar-info .logo-here img {
+    width: 70px;
+    object-fit: cover;
+}
+
+.top-bar .top-bar-container .top-bar-info .company-phone p {
+    font-size: 1.5rem;
+}
+/* End of top bar styles */
+
+/* Start of navbar */
+.nav-bar {
+    width: 100%;
+    background: navy;
+}
+
+.nav-bar .nav-container {
+    /* background: red; */
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+.nav-bar .nav-container .nav-links {
+    font-size: 1.8rem;
+}
+
+.nav-bar .nav-container .nav-links a {
+    color: #fff;
+    padding-right: 1.8rem;
+}
+
+.nav-bar .nav-container .nav-links a:last-child {
+    padding-right: none;
+}
+/* End of navbar */
+
+/* Start of main content left side */
+.main {
+    padding-top: 3.5rem;
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.main .main-left {
+    flex: 1;
+    /* background: red; */
+    font-size: 1.2rem;
+    font-size: 
+}
+
+.main .main-left .left-container {
+    width: 90%;
+    margin: auto;
+    /* background: purple; */
+}
+
+.main .main-left .left-container .navigate-page {
+    color: black;
+}
+
+.main .main-left .left-container .navigate-page p:first-child {
+    color: grey;
+    margin-bottom: 2rem;
+}
+
+.main .main-left .left-container .navigate-page h1 {
+    color: maroon;
+    margin-bottom: 2rem;
+}
+
+.main .main-left .left-container .navigate-page h1 span {
+    /* text-decoration: underline; */
+    border-bottom: 1px solid maroon;
+}
+
+.main .main-left .left-container .navigate-page ul {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.main .main-left .left-container .get-help {
+    margin-left: 3rem;
+    /* background: green; */
+    padding-left: 3rem;
+    border-left: 1px solid grey;
+    font-size: 1.3rem;
+}
+
+.main .main-left .left-container .get-help img {
+    width: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.main .main-left .left-container .get-help .guide-button {
+    margin-top: 1rem;
+    background: navy;
+    border-radius: 5px;
+    padding: .5rem 0rem;
+    width: 70%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.main .main-left .left-container .get-help .guide-button a {
+    color: white;
+}
+
+/* End of main content left side */
+
+
+
+
+
+/* Start of main content right side */
+.main .main-right {
+    flex: 2;
+    /* background: pink; */
+    margin-left: 5rem;
+}
+
+.main .main-right .right-container .main-heading {
+    color: navy;
+    font-size: 1.7rem;
+}
+
+.main .main-right .right-container .quick-summary h2 {
+    color: maroon;
+    margin-bottom: .5rem;
+}
+
+.main .main-right .right-container .quick-summary {
+    width: 70%;
+    margin: 1rem 0 1rem 3rem;
+    font-size: 1.3rem;
+}
+
+.main .main-right .right-container .second-heading {
+    width: 70%;
+    margin: 4rem 0 0 3rem;
+    font-size: 1.4rem;
+    color: maroon;
+}
+
+.main .main-right .right-container .goals-info {
+    width: 70%;
+    margin: 1rem 0 1rem 3rem;
+    font-size: 1.4rem;
+}
+
+.main .main-right .right-container .goals-info ul {
+    list-style-type: circle;
+    padding-left: 2rem;
+}
+
+.did-you-know {
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin-left: 8rem;
+    font-size: 1.2rem;
+}
+
+.did-you-know .question h2 {
+    flex: 1;
+    color: maroon;
+    border-right: 1px solid black;
+    padding-right: 2rem;
+}
+
+.did-you-know .answer {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+
+
+
+
+/* End of main content right side */
