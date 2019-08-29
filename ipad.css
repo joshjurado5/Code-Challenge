@@ -1,14 +1,32 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .nav-bar .nav-container {
     width: 80%;
+    padding: 0;
 }
 
 .nav-bar .nav-container .nav-links {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .main {
     padding-top: 3.5rem;
-    width: 75%;
+    width: 90%;
+}
+
+.main .main-left .left-container .get-help img {
+    width: 120px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.main .main-left .left-container .get-help .guide-button {
+    padding: .5rem 0rem;
+    width: 100%;
+    font-size: 1.1rem;
 }
 
 .main .main-right .right-container .main-heading {
@@ -20,6 +38,10 @@
     display: flex;
     text-align: center;
     width: 70%;
-    margin-left: 5rem;
+    margin-left: 4rem;
     font-size: 1rem;
+}
+
+.close p {
+    /* display: none; */
 }

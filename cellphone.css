@@ -1,0 +1,108 @@
+.nav-bar .nav-links {
+    
+}
+
+.nav-links {
+    display: none;
+}
+
+.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    display: none;
+    color: white;
+    position: absolute;
+    top: 10%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 5%;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    cursor: pointer;
+    /* transition: transform 650ms ease-out; */
+}
+
+.main {
+    display: block;
+}
+
+.main .main-left .left-container {
+    width: 100%;
+    display: flex;
+    margin: .5rem auto 4rem auto;
+}
+
+.main .main-left .left-container .navigate-page {
+    flex: 1;
+    text-align: center;
+}
+
+.main .main-left .left-container .get-help {
+    flex: 1;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.main .main-left .left-container .get-help img {
+    width: 110px;
+}
+
+.main .main-right {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.main .main-right .right-container .main-heading {
+    font-size: 1.8rem;
+}
+
+.main .main-right .right-container .quick-summary h2 {
+    align-items: center;
+    margin-bottom: none;
+}
+
+.main .main-right .right-container .quick-summary {
+    width: 90%;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+}
+
+.main .main-right .right-container .second-heading {
+    width: 90%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.main .main-right .right-container .goals-info {
+    width: 90%;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.main .main-right .right-container .goals-info p,
+.main .main-right .right-container .goals-info ul {
+    padding: 1rem;
+    /* margin: auto; */
+}
+
+.main .main-right .right-container .goals-info ul {
+    font-size: 1.4rem;
+}
+
+.did-you-know {
+    display: flex;
+    text-align: center;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
