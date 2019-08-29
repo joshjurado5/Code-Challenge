@@ -1,6 +1,6 @@
 let burger = document.querySelector('.burger');
 let navLinks = document.querySelector('.nav-links');
-let close = document.querySelector('.close');
+let close = document.querySelector('.close p');
 let links = document.querySelectorAll('.nav-links a');
 
 burger.addEventListener('click', () => {
